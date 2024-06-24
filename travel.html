@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flipkart Travel</title>
+    <link rel="stylesheet" href="travel.css">
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <div class="logo">
+                <span class="flipkart-logo">Flipkart</span>
+                <span class="explore-plus">Explore <span class="plus">Plus</span></span>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="Login.html">Login</a></li>
+                    
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero">
+        <img src="houseboat.jpg" alt="Houseboat on water" class="hero-image">
+        <div class="hero-text">
+            <h1>Get. Set. Travel.</h1>
+        </div>
+    </section>
+
+    <section class="search">
+        <form action="#">
+            <div class="trip-type">
+                <label>
+                    <input type="radio" name="trip" value="one-way" checked> One Way
+                </label>
+                <label>
+                    <input type="radio" name="trip" value="round-trip"> Round Trip
+                </label>
+            </div>
+            <div class="search-fields">
+                <input type="text" placeholder="From" required>
+                <input type="text" placeholder="To" required>
+                <input type="date" placeholder="Depart On" required>
+                <input type="text" placeholder="Return On">
+                <input type="number" placeholder="Travellers | Class" required>
+                <button type="submit">Search</button>
+            </div>
+        </form>
+    </section>
+</body>
+</html>
